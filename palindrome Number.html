@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // que 1 palindrome
+// An integer is a palindrome when it reads the same forward and backward
+// input: x=121  ---->> true
+// input x=10----->>false
+
+
+const ispalindrome = function(x){
+    return x === +x. toString().split("").reverse().join("");
+    // console.log(+"10") output 10
+    // console.log(+"a");   output nan
+};
+const res =ispalindrome(10);
+console.log(res);
+
+//  to string  121 =>"121"
+//   split  121 =>["1","2","1"] 
+// reverse  => ["1","2","1"] =>=> ["1","2","1"] 
+// join  "1.2.1" =>"121"
+// number conver= +x.tostring().split("").reverse().join(".")
+
+    </script>
+</body>
+</html>
